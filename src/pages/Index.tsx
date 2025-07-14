@@ -11,7 +11,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-8">
-              <h1 className="text-2xl font-bold text-black tracking-tight">JAPANESE CUISINE</h1>
+              <h1 className="text-2xl font-bold text-black tracking-tight">ROLL-MOLL</h1>
               <nav className="hidden md:flex space-x-6">
                 <a href="#sushi" className="text-gray-600 hover:text-red-600 transition-colors">Суши</a>
                 <a href="#rolls" className="text-gray-600 hover:text-red-600 transition-colors">Роллы</a>
@@ -213,7 +213,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-black text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <h4 className="text-lg font-light mb-2">JAPANESE CUISINE</h4>
+          <h4 className="text-lg font-light mb-2">ROLL-MOLL</h4>
           <p className="text-gray-400 text-sm">Аутентичная японская кухня в сердце города</p>
         </div>
       </footer>
