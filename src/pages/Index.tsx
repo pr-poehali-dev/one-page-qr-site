@@ -19,13 +19,11 @@ const Index = () => {
               </nav>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="w-12 h-12 bg-black flex items-center justify-center">
-                <div className="w-8 h-8 bg-white grid grid-cols-3 gap-px">
-                  {[...Array(9)].map((_, i) => (
-                    <div key={i} className={`w-full h-full ${Math.random() > 0.5 ? 'bg-black' : 'bg-white'}`} />
-                  ))}
-                </div>
-              </div>
+              <img 
+                src="/img/cc41da4e-e1a1-4bcd-8b64-8bc2fd5329d5.jpg" 
+                alt="QR код для заказа" 
+                className="w-12 h-12 object-cover"
+              />
               <Button className="bg-red-600 hover:bg-red-700 text-white">
                 Заказать
               </Button>
@@ -181,13 +179,11 @@ const Index = () => {
           <h3 className="text-3xl font-light text-black mb-8">Контакты и заказ</h3>
           <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12">
             <div>
-              <div className="w-32 h-32 bg-black mx-auto mb-4 flex items-center justify-center">
-                <div className="w-24 h-24 bg-white grid grid-cols-6 gap-px">
-                  {[...Array(36)].map((_, i) => (
-                    <div key={i} className={`w-full h-full ${Math.random() > 0.5 ? 'bg-black' : 'bg-white'}`} />
-                  ))}
-                </div>
-              </div>
+              <img 
+                src="/img/cc41da4e-e1a1-4bcd-8b64-8bc2fd5329d5.jpg" 
+                alt="QR код для заказа" 
+                className="w-32 h-32 mx-auto mb-4 object-cover border border-gray-200"
+              />
               <p className="text-gray-600">Сканируйте для заказа</p>
             </div>
             <div className="text-left">
